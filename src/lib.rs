@@ -3,8 +3,3 @@ use pest_derive::Parser;
 #[derive(Parser)]
 #[grammar = "./grammar.pest"]
 pub struct Grammar;
-
-fn main() -> anyhow::Result<(), pest::error::Error<Rule>> 
-{
-    Ok(())
-}
